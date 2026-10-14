@@ -1,0 +1,19 @@
+{
+  "schema_version": "frameshift/illustration-native-observation/1",
+  "observed_on": "2026-10-14",
+  "platform": "macOS arm64",
+  "producer_digest": "sha256:accc88fefb6df88584a493a3592b5ed92099214a22b27f34788bad729c8dbbcb",
+  "frontend_digest": "sha256:c97a7ccb83967712d929fa10b24d87fecb2a5720c4b671f35e0716693d0092b0",
+  "scene_digest": "sha256:6b2c7e93a012bad8f5660ab4d0ec3c72157e265b5b4e1c2710232c1383609c86",
+  "states_digest": "sha256:ff7282b10c4e57133e9cbdaf55076a9c92d999c441a95a7ae145389f73ea7edd",
+  "source_document_digest": "sha256:79da25bb5b588ddaf4ab6288104f16896d371b40584c59abc0c47479a57fe2ad",
+  "native_readout": "Outline W: 608.8 mm · Active W: 596.736 mm · Outline H: 355.3 mm · Body D nominal: 9.3 mm · Active H: 335.664 mm · Presentation: 0/1 · Physical status: unknown · Work completion: not recorded",
+  "checks": [
+    "New native app opened through CUA and displayed all five exact measurements",
+    "Original scene/state bytes equal the preceding preview inputs",
+    "Untouched preliminary source PDF opened in Preview at printed page 29, front mechanical drawing",
+    "Ten packaged native icon sizes retain sampled #1b1b1b background"
+  ],
+  "source_assessment": "../blueprint-admission.json",
+  "scope": "Selected native source inspection and unchanged nominal envelope; no additional detailed physical geometry, document authentication, full lifecycle or hardware qualification."
+}

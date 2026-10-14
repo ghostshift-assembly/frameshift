@@ -1,0 +1,38 @@
+{
+  "schema_version": "frameshift/illustration-blueprint-assessment/1",
+  "observed_on": "2026-10-14",
+  "candidate": "BOE MV270QHM-N40 P1",
+  "source_digest": "sha256:79da25bb5b588ddaf4ab6288104f16896d371b40584c59abc0c47479a57fe2ad",
+  "source_url": "https://www.panelook.com/upload/202311/MV270QHM-N40_Rev.P1_20190125_202311014949.pdf",
+  "source_status": "manufacturer-issued document claimed by unauthenticated mirror",
+  "admitted_scope": "Existing nominal outline/body/active dimensions and scoped regional-depth facts only",
+  "detailed_model": "incomplete",
+  "drawing_inventory": [
+    {"locator": "printed page 29, figure 5", "content": "front outline, active area, asymmetric outline tolerances and regional side dimensions", "placement_admission": "complete active-area datum mapping unresolved"},
+    {"locator": "printed page 30, figure 6", "content": "rear mounting inserts, regional depths, connector notes and mounting torque", "placement_admission": "no new coordinates or installed mating envelope admitted"}
+  ],
+  "component_source_followup": [
+    {
+      "role": "drawing-referenced interface receptacle candidate",
+      "model": "JAE FI-RE51S-HF",
+      "url": "https://products.jae.com/gl/en/connectors/category/board-to-cable/fi-r/fi-re51s-hf/",
+      "catalogue_drawing_number": "SJ102934",
+      "status": "primary catalogue located; dimensioned drawing and exact panel/mating-part binding not admitted"
+    }
+  ],
+  "rejected_substitution": {
+    "url": "https://285624.selcdn.ru/syms1/iblock/f90/f9090ae8aceb5dfe0a2dd4e5ea6b8c14/ba66e740493d0cec60f8dea3da0f898f.pdf",
+    "reason": "Search exposes P2 text mentioning N40 while the document title names MV270QHM-NF2. It cannot supply missing facts for the selected P1 candidate.",
+    "tier": "discovery; not imported"
+  },
+  "unresolved": [
+    "Authenticated BOE issue/revision and received panel identity",
+    "P1 mechanical prose names MV270FHM-N40 while drawing title names MV270QHM-N40",
+    "Complete drawing datum, mounting-feature and rear protrusion mapping",
+    "Exact connector variant, mating plug, cable exit and bend clearance",
+    "Exact scanout controller, backlight driver and power configuration",
+    "Glass, passe-partout, retention, backing, mounting and service clearances"
+  ],
+  "minimum_wood_depth": null,
+  "scope": "Source-quality and omission assessment only; no new physical geometry, part selection, compatibility or hardware validation."
+}

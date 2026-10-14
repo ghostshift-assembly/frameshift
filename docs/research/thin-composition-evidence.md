@@ -124,6 +124,29 @@ Retain the source CAD/drawing when permitted, semantic feature IDs, canonical co
 
 The visual procedure binds the exact CompositionSpec/BuildSpec, part revisions, approved operations, tool/skill conditions, safety instructions and verification steps. Exploded views, connector highlighting and camera paths cannot invent hidden geometry or substitute for required physical measurement. DocShell supplies explanatory artifacts, while Conjunct owns generic procedure/scene semantics and Frameshift owns its specific content.
 
+## Detailed drawing admission
+
+The selected BOE candidate's
+[blueprint assessment](../../data/illustrations/boe-mv270qhm-n40-p1/blueprint-admission.json)
+was checked on 2026-10-14. P1 printed pages 29–30 contain front/rear mechanical
+drawings, regional depths, mounting inserts and connector notes. Their existence
+does not authenticate the mirror, resolve the document's model-name conflict or
+establish every datum and mated envelope. Preserve the original drawings for
+inspection; omit unresolved features from the physical model.
+
+The [JAE FI-RE51S-HF primary catalogue](https://products.jae.com/gl/en/connectors/category/board-to-cable/fi-r/fi-re51s-hf/)
+names drawing SJ102934. The dimensioned drawing, exact panel binding, mating
+plug and cable exit must be retained and reconciled before placing that
+connector. Catalogue dimensions alone cannot supply installed clearance. A P2
+search result that mentions N40 but titles its document NF2 was rejected as a
+substitute for the selected P1 source.
+
+Conjunct now has independent manufacturer-dimensioned Pico PCB and BME280 package
+inspection examples with explicit omissions. These demonstrate producer drawing
+behavior; they select no Raspberry Pi board or sensor for a Frameshift build.
+The product's controller, glass, mat, retention and mounting inputs remain
+unselected. Complete minimum wood depth remains unknown.
+
 ## Qualification packet and next technical work
 
 For every candidate record composition ID, exact manufacturer/MPN/revision, class, active area/resolution/pitch, source dimensions, interface, driver/controller revision, network/storage, power modes, actual installed depth and its limiting feature, geometry grade, product evidence state and unresolved facts. Unknown total depth remains unknown rather than panel thickness plus a guessed constant.

@@ -12,6 +12,16 @@ The candidate retains its original scene/state carriers, static join manifests
 and [native observation](boe-mv270qhm-n40-p1/native-observation-macos-arm64.json).
 These observations qualify the stated software checks only.
 
+The [blueprint assessment](boe-mv270qhm-n40-p1/blueprint-admission.json) records
+the front/rear drawing inventory, the primary connector drawing follow-up and
+why additional geometry remains unadmitted. The preliminary mirror has a
+model-name conflict. A discovered P2 document naming a different model cannot
+fill the selected P1 candidate's gaps. Existing scene bytes and dimensions remain
+unchanged; no controller, mating connector or wooden thickness is invented.
+The [source-preview observation](boe-mv270qhm-n40-p1/source-preview/native-observation-macos-arm64.json)
+binds the later native executable, unchanged five readouts and direct inspection
+of the original front drawing. It grants no detailed-model or hardware approval.
+
 `synthetic-photo-frame` owns original scene and state bytes for the product's
 software-only assembly/service review. The 16 counted occurrences cover the
 timber enclosure, passe-partout and exact opening feature, panel, controller,
