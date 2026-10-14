@@ -1,0 +1,17 @@
+{
+  "schema_version": "frameshift/illustration-native-observation/1",
+  "observed_on": "2026-10-14",
+  "status": "passed-selected-macos-native-ui",
+  "producer_digest": "sha256:973c2eb096861f951635d3ae92148153480a7bc5df98f4127a430ebf21f547a3",
+  "frontend_digest": "sha256:68cd6f10fc03d4a361eb3c7a17decc23369d83e0f2d2942a6b1de905a8dd7a3a",
+  "scene_digest": "sha256:6b2c7e93a012bad8f5660ab4d0ec3c72157e265b5b4e1c2710232c1383609c86",
+  "states_digest": "sha256:ff7282b10c4e57133e9cbdaf55076a9c92d999c441a95a7ae145389f73ea7edd",
+  "checks": [
+    "actual window opened with source-derived title",
+    "all five exact decimal millimetre readouts visible",
+    "window screenshot 1760 by 1344 pixels; full readout wraps",
+    "reduced-motion separation changes presentation from 0/1 to 1/1 and slider from 0 to 1000",
+    "measurements, unknown physical status and no work completion preserved"
+  ],
+  "scope": "Selected development native app and source-dimension fixture; no hardware, complete core port, browser, human assistive or additional-target qualification"
+}

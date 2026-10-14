@@ -104,6 +104,14 @@ envelopes; active-area placement is a detached presentation datum. Wood depth
 remains unknown. Browser, human assistive, complete lifecycle and physical
 qualification remain open.
 
+The [compact preview observation](../../data/illustrations/boe-mv270qhm-n40-p1/compact-preview/native-observation-macos-arm64.json)
+records the smaller 880 by 672 point window and a slider that follows the same
+evaluated presentation state. Reduced-motion separation changes both the
+presentation and slider while preserving the five exact source measurements.
+Its [static join](../../data/illustrations/boe-mv270qhm-n40-p1/compact-preview/observation-macos-arm64.json)
+checks all ten states, source bytes, document receipts and file-relative assets
+with the same executable. Earlier observations retain their own exact cohorts.
+
 The first product fixture must pass through real staged producer outputs and
 retain the complete aperture/panel/controller/connector/backing/mount/service
 envelope. Synthetic fixtures test behavior; sourced configurations remain at
