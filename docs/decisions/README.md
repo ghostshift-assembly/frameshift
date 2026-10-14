@@ -344,3 +344,25 @@ Other formats and installed target closure require separate qualification.
 - **Detail:** [Conjunct integration](../architecture/conjunct-integration.md),
   [adoption evidence](../research/conjunct-adoption.md),
   [thin composition evidence](../research/thin-composition-evidence.md)
+
+## D-023 — Portable technical illustrations and generic document bindings
+
+- **State:** adopted direction, 2026-10-14; draft producer contracts and
+  Frameshift M2 consumer implementation open.
+- **Decision:** Conjunct owns a separate Rust technical illustration component
+  with exact scene/state bindings, native inspection and script-free static
+  outputs. Elixir owns orchestration. DocShell carries generic external-artifact
+  references, semantic anchors and capability/fallback admission without
+  importing Conjunct. Frameshift supplies frame assets, procedures and visual
+  acceptance; the Zig artwork and still-image device path retain their owners.
+- **Consequence:** A skill can draft source-bound scene inputs but cannot be the
+  runtime or semantic authority. New illustration generation, preview and
+  export add no JS/TS implementation. Current guide/schema identities remain
+  supported while the new profiles qualify. Static format portability does not
+  imply installed native or human accessibility proof on another target.
+- **Acceptance:** Actual generated SVG/PNG/HTML, semantic manifests, deterministic
+  checkpoints, contact sheets, reviewed reference/difference images, offline
+  and print coverage, worker recovery and named native/reader target evidence.
+- **Detail:** [Product contract](../architecture/build-platform.md#technical-illustration-profile),
+  [delivery slice](../architecture/implementation-plan.md#technical-illustration-and-document-delivery),
+  [research evidence](../research/technical-illustrations.md).

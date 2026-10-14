@@ -29,6 +29,31 @@ release requirements remain in this ledger for their next-milestone evidence.
 
 ## Companion build platform
 
+### Technical illustration evidence
+
+[BP-04a](build-platform.md#technical-illustration-profile) and
+[T1–T5](implementation-plan.md#technical-illustration-and-document-delivery)
+require the following evidence. Complete row acceptance remains open; existing wireframe guide,
+transport and prior-art tests do not qualify the Rust illustration or
+DocShell extension.
+
+| Requirement | Owner and required check | Current evidence |
+| --- | --- | --- |
+| Generic scene and document capability | Conjunct I1/I2 and DocShell DSH-P11/P12; exact schemas, independent expectations, unrelated chart profile, preserved v1 bytes and refusal fixtures | Static implementation and owning Rust/Elixir gates pass; chart/drawing admission and fixed-seed independent models pass; complete compatibility matrix open |
+| Actual generated visual packet | Conjunct I2/I3 and product T2; SVG/PNG/HTML/text/manifests, surface order, feature/dimension/readout/warning coverage | Installed producer/adapter/DocShell archive join generates 15 synthetic states with 16 counted occurrences, 33 features and four exact readouts on macOS arm64; physical/procedure checks remain unknown |
+| Preview/reference comparison | Conjunct I3/I4 and product T3; actual public producer calls, checkpoints, contact sheets/crops, candidate/reference/diff, separate baseline review | Static generated packet, contact sheets, 4× crops and native-code PNG inspection pass; interactive native host and human review approval remain open |
+| Script-free document/export | DocShell DSH-P13/P14 and product T4; selected runtime, local asset integrity, old-output recovery, offline/print/high zoom | Actual generated SVG variants pass producer validation and document export; root/subpath file-reader, tamper/recovery and emitted-script refusal tests pass. Browser opening was blocked by the local-file URL policy; browser/manual tasks remain unexecuted |
+| Cross-platform native lifecycle/usability | Producer I4/I6 and product T5; actual macOS/Linux architectures, installed consumers, worker failure/restart and manual assistive tasks | Open; Windows/native mobile proof separate |
+
+The [source record](../research/technical-illustrations.md) distinguishes prior
+design investigation from the selected installed software join. Neither the
+generated synthetic packet nor passing software checks establish a physical
+configuration, controlled performance or complete target claim.
+The [retained run records](../../data/illustrations/README.md) bind the original
+inputs, renderer/profile digests, all 15 state outputs and diagnostic timings.
+
+### Existing composition and integration evidence
+
 The [canonical platform plan](build-platform.md) and
 [Conjunct integration contract](conjunct-integration.md) define the current
 composition/instruction direction. Existing boundary, host and partial compiler

@@ -1,0 +1,8 @@
+[descriptor, destination] = System.argv()
+profile_digest = descriptor |> File.read!() |> Conjunct.Wire.blob_id()
+bundle = Frameshift.Illustration.Fixture.bundle(profile_digest)
+states = Frameshift.Illustration.Fixture.states(bundle)
+File.mkdir_p!(destination)
+File.write!(Path.join(destination, "scene.json"), bundle)
+File.write!(Path.join(destination, "states.json"), states)
+IO.puts("Authored synthetic frame inputs; physical and procedure status remain unknown.")

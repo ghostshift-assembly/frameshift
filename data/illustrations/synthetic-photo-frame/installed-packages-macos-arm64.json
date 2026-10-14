@@ -1,0 +1,27 @@
+{
+  "schema_version": "frameshift/illustration-installed-packages/1",
+  "scope": "Local archive carrier digests used by the selected software join; no public release or source/build attestation",
+  "packages": [
+    {
+      "package": "doc_shell",
+      "version": "0.5.0",
+      "byte_length": 174592,
+      "digest": "sha256:9a332461a3f67865c3ca4dfdd0b1b3ca0934ab4b5819504b5f1abaaa03e4ebe2"
+    },
+    {
+      "package": "conjunct_wire",
+      "version": "0.1.0",
+      "byte_length": 13824,
+      "digest": "sha256:585a79cc81361558615de86178cfc8efc4aede43f8a4df54276ddacd0b282750"
+    },
+    {
+      "package": "conjunct_illustration",
+      "version": "0.1.0",
+      "byte_length": 10752,
+      "digest": "sha256:e22a247d47f79fe84305cfe9075ebf7e20e6cbc965d8cf5472159b4c5131e297"
+    }
+  ],
+  "consumer_lock_digest": "sha256:93db4a596fef1c7a5bc82c0565cc7e31aafac4e7838232c5798146a9bb288a11",
+  "native_cargo_lock_digest": "sha256:1e3a460a5997d46801b184fbd473a8a485e4592dbe1c8a4fb1496e5ed0915480",
+  "native_executable_digest": "sha256:395e3292221aee574f20509921ddca4bcbf94cca64ac2d8918c0587ad7c4e046"
+}

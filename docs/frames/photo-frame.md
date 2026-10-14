@@ -30,8 +30,27 @@ Requirements:
 
 The BOE MV270QHM-N40 is geometry/interface evidence, not yet a purchase choice:
 2560×1440, 596.736×335.664 mm active, approximately
-608.8×353.3×14.9 mm, matte/low-reflection, LVDS, and separate backlight control.
+608.8×355.3 mm nominal outline, a 9.3 mm typical body depth, matte/low-reflection,
+LVDS, and separate backlight control. The front drawing marks 9.3±0.5 mm body
+depth and a 12.8±0.5 mm protruding region; the rear drawing also marks 14.9 mm
+regions. These are regional dimensions, not interchangeable complete installed
+depths. The mechanical section names MV270FHM-N40 while the drawing title names
+MV270QHM-N40; retain that document-scope conflict pending authoritative confirmation.
+Figure 5 gives +1/−0.6 mm outline tolerances on both axes, yielding candidate
+drawing bounds of 608.2–609.8 × 354.7–356.3 mm. The
+[dimension record](../../data/illustrations/boe-mv270qhm-n40-p1/dimensions.json)
+retains exact page/feature locators, basis and unresolved installed dimensions.
 Source: [mirrored preliminary panel specification](https://www.panelook.com/upload/202311/MV270QHM-N40_Rev.P1_20190125_202311014949.pdf).
+
+Wood geometry is calculated from the selected display, protection glass,
+passe-partout, support and complete electronics/connection envelopes. Minimize
+the complete installed thickness under the
+[physical constraint contract](../architecture/physical-build-contract.md).
+Glass, mat, retention, tolerances and service margins are explicit inputs;
+missing controller, backlight-driver or connector dimensions cannot become a
+guessed rear pocket. Regional protrusions, mating cables and the mounting gap
+must appear in the result. An illustrative timber thickness is never a product
+requirement or a proved minimum.
 
 ## Prototype options
 

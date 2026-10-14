@@ -76,6 +76,41 @@ after its producer and evidence prerequisites are met:
 Transactional shop/service implementation remains on hold independently of M2.
 Do not treat finishing M1 or starting M2 as authorization to resume it.
 
+## Technical illustration and document delivery
+
+**Milestone:** M2, within S4 and gate D; specified 2026-10-14, selected static
+implementation delivered; complete qualification open. [BP-04a](build-platform.md#technical-illustration-profile) and the
+[source record](../research/technical-illustrations.md) define the producer and
+product ownership. The Conjunct producer sequence serves its existing M1-05;
+DocShell's generic extension is in progress under DSH-P11–P14. Those producer labels
+do not reprioritize Frameshift's installed Mac-to-frame M1.
+
+| Slice | Required deliverable | Acceptance |
+| --- | --- | --- |
+| T1 — Freeze producer/consumer fixtures | Exact scene/block/profile/schema/transport digests, product source/feature map, typed runtime selection and original valid/invalid/unknown inputs | Native scene generation remains independent from document binding; preserved v1 fixtures replay; unsupported producer capabilities refuse |
+| T2 — Generate one product visual packet | Real Conjunct Rust preparation and SVG/PNG/HTML/text output for a selected synthetic frame composition; complete installed envelope and procedure | Exact part/feature/readout/warning coverage, correct surface order, dimension/source limitations, no invented parts and no promotion of synthetic hardware |
+| T3 — Preview and compare | Producer public calls generate state checkpoints, contact sheets, 1×/4× crops, reference/candidate/diff and manifests; native preview and script-free HTML | Assembled/exploded/isolation, every step, checkpoints `0`, `1/4`, `1/2`, `3/4`, `1`, reversal, camera changes and reduced motion agree; baseline replacement is separate review |
+| T4 — Bind documents and export | Real DocShell typed blocks with exact anchors/variants, reviewed wording and complete fallback | No-JS policy selects actual script-free output; altered bytes/profile/locale/anchors refuse and prior complete output survives; offline/print and `/`/subpath layouts preserve essential text |
+| T5 — Qualify target/product coverage | Actual macOS/Linux architecture installations, native lifecycle, platform viewers and independent Paper/Photo/Pixel fixtures as claimed | Worker cancel/deadline/restart, stale state, measured budgets, keyboard/screen reader, 320/390 px/high zoom/monochrome/print; Windows/mobile claims need their own executed evidence |
+
+T2/T3 progress with synthetic/manual geometry without manufacturer CAD. They
+do not establish physical depth, clearance, thermal or optical acceptance.
+Existing browser/Svelte work remains under its current contract; new illustration
+generation/preview/export logic uses Rust/Elixir and thin native APIs. A raw WASM
+build cannot silently introduce a JS interactive runtime into this profile.
+
+The producer now implements generation, comparison and static preview.
+`scripts/illustrations` joins its explicitly selected installed executable,
+wire/document adapter archives and DocShell to the committed synthetic fixture.
+It generates 15 real states, SVG/PNG/HTML/semantic manifests, contact sheets and
+4× crops, then exports the verified static document. Native interactive preview
+still reports unsupported; browser/manual assistive and complete target evidence
+remain open. A hand-authored substitute cannot qualify this join.
+Follow the producer's bounded temporary-output and reviewed-baseline retention
+policy; retain source fixtures/manifests/metrics/witnesses rather than copying
+unbounded passing render trees. Update the verification map only with actual
+named results.
+
 ## Composition and product dependency gates
 
 **Milestone:** M2. These gates do not precede M1's independent native artwork path.

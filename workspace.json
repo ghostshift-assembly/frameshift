@@ -1,6 +1,7 @@
 {
   "version": 1,
   "components": [
+    {"name": "illustrations", "root": "packages/illustration-review", "modules": ["Frameshift.Illustration"], "depends_on": []},
     {"name": "core", "root": "apps/core", "modules": ["Frameshift", "FrameshiftCore"], "depends_on": ["decisions"]},
     {"name": "macos", "root": "apps/macos", "modules": [], "depends_on": []},
     {"name": "mac-release", "root": "release/macos", "modules": [], "depends_on": []},

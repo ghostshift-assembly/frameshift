@@ -110,6 +110,8 @@ exists, but public publication and installer workflows remain open in the
 ## Research
 
 - [Consolidated composition research, current producer exports and specification plan](research/conjunct-adoption.md)
+- [Technical illustrations, generic document capabilities and visual preview evidence](research/technical-illustrations.md)
+- [Executable local technical illustration review](../packages/illustration-review/README.md)
 - [Hardware platforms and power feasibility](research/hardware-platforms.md)
 - [Software stack](research/software-stack.md)
 - [Native Swift lifecycle guidance and CodexBar/helper review](research/software-stack.md#native-shell-lifecycle-practices)

@@ -1,0 +1,26 @@
+#!/bin/sh
+set -eu
+
+if [ "$#" -ne 2 ] && [ "$#" -ne 3 ]; then
+  echo "usage: scripts/illustrations /absolute/producer/executable /absolute/new/output [/absolute/fixture]" >&2
+  exit 64
+fi
+repository_root=$(CDPATH='' cd -- "$(dirname -- "$0")/.." && pwd)
+renderer=$1
+destination=$2
+fixture=${3:-"$repository_root/data/illustrations/synthetic-photo-frame"}
+case "$renderer:$destination" in
+  /*:/*) ;;
+  *) echo "producer executable and destination must be absolute paths" >&2; exit 64 ;;
+esac
+case "$fixture" in
+  /*) ;;
+  *) echo "fixture must be an absolute path" >&2; exit 64 ;;
+esac
+if [ ! -x "$renderer" ]; then
+  echo "illustration producer is unavailable" >&2
+  exit 2
+fi
+cd "$repository_root/packages/illustration-review"
+MIX_ENV=prod exec mise exec -- mix run scripts/review.exs "$renderer" \
+  "$fixture" "$destination"

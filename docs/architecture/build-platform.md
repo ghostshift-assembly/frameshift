@@ -100,6 +100,64 @@ status. Label partial sums; missing stock or price cannot block an exact parts
 list. Binding amounts, tax calculations and reservations belong to an enabled
 service profile and its financial/policy owner.
 
+### Technical illustration profile
+
+**BP-04a — Bound technical illustrations.** Use qualified Conjunct presentation
+results for shaded frame inspection and assembly illustrations. Frameshift
+supplies exact part/source/feature bindings, profiles, approved procedures,
+materials and product controls. Conjunct owns the generic scene preparation,
+projection, occlusion, transitions and semantic output contract. DocShell can
+place completed variants in explanatory documents through its generic artifact
+capability; it is not required to generate or inspect a scene. See the
+[source/disposition record](../research/technical-illustrations.md).
+
+The new illustration component uses Rust and Elixir with thin native platform
+APIs. Its generation, preview and exported HTML/SVG add no JS/TS implementation
+or required Node runtime. Existing Svelte composition surfaces retain their
+current boundary; browser WASM is not an implicit exception to script-free
+illustration output. Native interactive preview and static offline/print output
+are the baseline. The existing Zig artwork renderer and Frame Protocol retain
+their still-image contract.
+
+One presentation state binds scene/profile, composition/report, optional
+procedure/report, camera, step, selected feature and transition position. The
+same state drives drawing, readouts and accessible descriptions. Required
+dimensions, warnings and inspections remain inspectable text. A failed/unknown
+physical check cannot become a passed build through rendering, and step browsing
+cannot record completion. Theme/camera changes affect presentation only.
+
+The frame fixture includes the active opening, mat, installed panel/controller,
+connector exits, cable bends, power path, backing, mounting and service access.
+Unknown dimensions or missing geometry remain visible. Paper, Photo and Pixel
+fixtures are independent; source and physical validation tiers remain distinct.
+No detail is invented to meet a drawing part-count target.
+
+The product preview consumes actual staged producer outputs. It provides
+assembled/exploded/isolation states, step selection, native timeline scrub/pause,
+reduced motion, light/dark/monochrome, 1×/4× inspection and reference/candidate/diff
+review. Static HTML offers links to generated states and complete fallback text.
+Show exact scene/variant/source IDs and limitations beside diagnostics. The
+preview cannot approve its own baseline or authorize a device operation.
+
+Admission selects exact profile/digest/variant and effective runtime constraints.
+Script-free mode forbids browser scripts, live transport and hidden remote
+assets. Missing optional capabilities show a verified labelled fallback; stale
+bindings, corrupted required bytes and unsupported essential content refuse.
+Keep previous permitted output under its original identity after worker or
+successor failure. A retained asset cannot bypass current host disclosure rights.
+
+Actual macOS arm64/x86_64 and Linux arm64/x86_64 generation, lifecycle and installed
+consumer checks are required for their claims. Windows native support and physical
+mobile-reader usability require separate target evidence; portable formats or
+cross-compilation alone do not qualify those hosts. Safari/Edge release claims
+are distinct from Chromium/Firefox/WebKit automated engine checks.
+
+The [M2 delivery plan](implementation-plan.md#technical-illustration-and-document-delivery)
+requires semantic fixtures, generated SVG/PNG/HTML, checkpoints, reviewed
+baselines, offline/print/accessibility checks and bounded retained output. This
+profile is specified; no producer renderer, DocShell extension or joined product
+preview is currently claimed implemented.
+
 ## Server and frontend architecture
 
 **BP-06 — Selected host.** Retain Phoenix, Ash/AshPostgres and

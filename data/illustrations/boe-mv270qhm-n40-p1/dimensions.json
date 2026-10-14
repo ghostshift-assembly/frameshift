@@ -1,0 +1,39 @@
+{
+  "schema_version": "frameshift/illustration-dimensions/1",
+  "candidate": {
+    "manufacturer": "BOE",
+    "model": "MV270QHM-N40",
+    "document_revision": "P1",
+    "received_revision": "unverified",
+    "existing_profile": "sha256:22bada13d57b52972a0b099e23804116012df6c4baae427a02e720c71832944c"
+  },
+  "source": {
+    "issuer": "BOE",
+    "mirror": "Panelook",
+    "url": "https://www.panelook.com/upload/202311/MV270QHM-N40_Rev.P1_20190125_202311014949.pdf",
+    "digest": "sha256:79da25bb5b588ddaf4ab6288104f16896d371b40584c59abc0c47479a57fe2ad",
+    "rechecked_on": "2026-10-14",
+    "retention": "reference-only",
+    "authentication": "unverified-manufacturer-document-mirror"
+  },
+  "units": "um",
+  "dimensions": [
+    {"id": "outline.width", "basis": "drawing-bound", "nominal": 608800, "min": 608200, "max": 609800, "locator": "printed-page-29-figure-5-outline-608.8-plus-1-minus-0.6"},
+    {"id": "outline.height", "basis": "drawing-bound", "nominal": 355300, "min": 354700, "max": 356300, "locator": "printed-page-29-figure-5-outline-355.3-plus-1-minus-0.6"},
+    {"id": "active.width", "basis": "nominal", "nominal": 596736, "min": null, "max": null, "locator": "printed-page-5-general-specifications-and-page-29-figure-5"},
+    {"id": "active.height", "basis": "nominal", "nominal": 335664, "min": null, "max": null, "locator": "printed-page-5-general-specifications-and-page-29-figure-5"},
+    {"id": "body.depth", "basis": "drawing-bound", "nominal": 9300, "min": 8800, "max": 9800, "locator": "printed-page-29-figure-5-body-9.3-plus-minus-0.5"},
+    {"id": "front-view.protrusion-depth", "basis": "drawing-bound", "nominal": 12800, "min": 12300, "max": 13300, "locator": "printed-page-29-figure-5-region-12.8-plus-minus-0.5"},
+    {"id": "rear-view.region-depth", "basis": "nominal", "nominal": 14900, "min": null, "max": null, "locator": "printed-page-30-figure-6-height-14.9-regions"},
+    {"id": "complete-mated-panel.depth", "basis": "missing", "nominal": null, "min": null, "max": null, "locator": null}
+  ],
+  "unresolved": [
+    "The mechanical text names MV270FHM-N40 while the drawing title names MV270QHM-N40.",
+    "Rear regional dimensions and connector mating envelopes do not establish one complete worst-case installed depth.",
+    "An exact external scanout controller and backlight-driver configuration remain unselected.",
+    "Protection glass, passe-partout, support, retention, backing, mounting, cable and service-clearance inputs remain unselected.",
+    "No received component or complete frame was measured."
+  ],
+  "minimum_enclosure_depth": {"state": "unknown", "value": null},
+  "scope": "Preliminary-source candidate dimensions and explicit gaps; no complete CAD, installed fit or minimum-thickness qualification."
+}

@@ -14,6 +14,9 @@
 /apps/*/tmp/
 /apps/*/doc/
 /apps/*/erl_crash.dump
+/packages/illustration-review/_build/
+/packages/illustration-review/deps/
+/packages/illustration-review/doc/
 /apps/*/assets/node_modules/
 /apps/*/assets/.svelte-kit/
 /apps/*/priv/static/

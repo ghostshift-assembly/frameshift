@@ -393,6 +393,14 @@ offline output. A stale feature map refuses the affected projection. The native
 Zig artwork renderer remains a separate system. A scene click or composition URL
 cannot authorize a device action or provider mutation.
 
+The planned [technical illustration profile](build-platform.md#technical-illustration-profile)
+extends this presentation boundary with Conjunct-owned Rust scene rendering
+and native preview, plus script-free still/document exports. Generic external
+artifact bindings belong in DocShell; frame assets/procedures and joined visual
+acceptance belong here. It neither replaces the artwork renderer nor adds a
+required DocShell dependency to scene generation. Current producer cohort
+claims remain separate from these unimplemented profiles.
+
 CJ4-09–CJ4-10 defines evidence-bearing procedure transitions, separate rework,
 concurrent/offline observation conflicts and equivalent semantic content across
 accessible/localized presentations. Conjunct supplies these generic contracts;

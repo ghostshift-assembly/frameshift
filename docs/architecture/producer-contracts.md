@@ -92,6 +92,15 @@ explicit conversion from the existing frame-coordinate profile. Other CAD
 formats remain unavailable until their own adapter qualifies. Manufacturer CAD
 permission is not a prerequisite for synthetic compiler/viewer fixtures.
 
+The planned technical illustration profile adds a separate Conjunct Rust
+presentation component with exact scene/state schemas, native lifecycle,
+script-free SVG/PNG/HTML and real generated preview/difference artifacts. It
+does not add a semantic kernel operation or alter the qualified current
+cohort. [BP-04a](build-platform.md#technical-illustration-profile) and the
+[product delivery slice](implementation-plan.md#technical-illustration-and-document-delivery)
+specify consumer bindings and acceptance. Missing exports remain unavailable;
+retained v1 preview or local renderer code cannot replace this generic owner.
+
 **PC-03 — Refpath generation, work and effects.** Conjunct owns the generic
 physical-domain adapter; Frameshift supplies its product bundle, typed commands,
 registered components and operator bindings. Refpath retains generation identity,
@@ -165,6 +174,19 @@ essential text gives an explicit reviewed-language fallback or makes execution
 unavailable. A portable guide consumes already generated permitted artifacts
 without a live DocShell server or Refpath operator host. Frameshift does not
 implement a second documentation store to hide an integration gap.
+
+DocShell's planned portable artifact capability adds typed, namespaced profile
+bindings, semantic anchors, completed local variants and state-specific runtime
+selection. The generic fixture includes an unrelated chart as well as a
+technical illustration. DocShell validates the document/asset envelope; the
+producer validates geometry and subject membership, and the host owns rights,
+retrieval and supervision. Rendering a scene does not require DocShell.
+No Conjunct-specific tag branch, producer dependency or global capability
+registry belongs in DocShell. Current v1 collections/capabilities remain
+readable; new profiles require exact staged schemas and joined preview/export
+tests before a consumer claims them. The new illustration profile's selected
+static output forbids JS/live transport even if the generic renderer supports
+such alternatives for other content.
 
 **PC-06 — Phoenix, Ash and phoenix-assets/Svelte.** The host authenticates
 sessions, establishes actor/operator membership and passes trusted scope into

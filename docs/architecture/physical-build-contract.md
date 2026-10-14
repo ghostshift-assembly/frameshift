@@ -368,6 +368,18 @@ references, relevant values/units, and clear explanations. Check:
 - storage, firmware, artifact formats, protocol bindings and update behavior;
 - quantities, required adapters, dependency cycles and missing assembly items.
 
+Wooden enclosure dimensions are derived outputs. Minimize installed depth
+subject to the complete display/glass/passe-partout/support stack, controller
+and power pockets, connector/cable envelopes, rear retention, mounting,
+ventilation, tolerances and service constraints. Laterally separated pockets
+use the maximum occupied regional stack, rather than summing unrelated boards.
+The depth result identifies its limiting region, contributing values, source
+locators, design choices and margins. Nominal source dimensions can establish
+a labelled planning scenario or lower bound; they cannot replace missing
+worst-case dimensions. Missing or conflicting required dimensions prevent a
+complete minimum-depth result. No fixed illustrative wood thickness fills a
+source gap or becomes a product requirement.
+
 Compatibility is conditional on modeled facts and scope. Missing required
 facts, contradictions, and unqualified interfaces cannot pass through defaults.
 Custom parts may appear in planning output with unknown results. Automated
