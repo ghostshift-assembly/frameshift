@@ -1,0 +1,19 @@
+{
+  "schema_version": "frameshift/assembly-draft-inputs/1",
+  "units": "um",
+  "status": "editable-unselected-design-draft",
+  "scope": "Explicit provisional design choices, not purchased specifications. Planning panel depth uses the 14.9 mm nominal rear region as a scenario only; the full mated panel and electronics remain unknown.",
+  "values": {
+    "glass_thickness_um": 2000,
+    "mat_thickness_um": 1400,
+    "mat_border_um": 30000,
+    "aperture_overlap_um": 1000,
+    "wood_wall_um": 8000,
+    "wood_lip_um": 2000,
+    "rebate_overlap_um": 4000,
+    "fit_per_side_um": 500,
+    "front_clearance_um": 500,
+    "rear_clearance_um": 1000,
+    "planning_panel_depth_um": 14900
+  }
+}

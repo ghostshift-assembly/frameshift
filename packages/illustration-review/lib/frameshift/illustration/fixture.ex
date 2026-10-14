@@ -60,7 +60,9 @@ defmodule Frameshift.Illustration.Fixture do
         doc("part-revision", %{
           "key" => %{
             "publisher" => "urn:frameshift:fixture",
-            "manufacturer" => "urn:frameshift:synthetic",
+            "manufacturer" =>
+              Keyword.get(options, :part_manufacturers, %{})
+              |> Map.get(id, "urn:frameshift:synthetic"),
             "mpn" => id,
             "revision" => "1"
           },
@@ -175,7 +177,16 @@ defmodule Frameshift.Illustration.Fixture do
       Enum.map_reduce(components, [], fn {id, label, material, size, _position, explode, layer,
                                           feature},
                                          nodes ->
-        geometry = geometry(size, feature, ref(source)) |> route_geometry(id)
+        geometry = geometry(size, feature, ref(source))
+
+        geometry =
+          if Keyword.get(options, :fixture_details, true),
+            do: route_geometry(geometry, id),
+            else: geometry
+
+        feature_source =
+          Keyword.get(options, :feature_sources, %{})
+          |> Map.get(id, Keyword.get(options, :feature_source, "synthetic"))
 
         geometry =
           geometry
@@ -184,7 +195,7 @@ defmodule Frameshift.Illustration.Fixture do
           |> Map.update!("features", fn features ->
             Enum.map(
               features,
-              &Map.put(&1, "source", Keyword.get(options, :feature_source, "synthetic"))
+              &Map.put(&1, "source", feature_source)
             )
           end)
 
@@ -201,12 +212,35 @@ defmodule Frameshift.Illustration.Fixture do
                 "unit" => "m",
                 "value" => mm(Enum.at(size, axis))
               },
-              "source" => Keyword.get(options, :feature_source, "synthetic"),
+              "source" => feature_source,
               "evidence_refs" => [ref(source)]
             }
           end)
 
         geometry = Map.update!(geometry, "features", &(&1 ++ extra_features))
+
+        geometry =
+          Keyword.get(options, :span_features, %{})
+          |> Map.get(id, [])
+          |> Enum.reduce(geometry, fn {name, from, to, value}, geometry ->
+            offset = length(geometry["vertices"])
+
+            feature = %{
+              "id" => name,
+              "role" => "dimension",
+              "vertices" => [offset, offset + 1],
+              "quantity" => %{"quantity_kind" => "length", "unit" => "m", "value" => mm(value)},
+              "source" => feature_source,
+              "evidence_refs" => [ref(source)]
+            }
+
+            geometry
+            |> Map.update!(
+              "vertices",
+              &(&1 ++ [Enum.map(from, fn v -> mm(v) end), Enum.map(to, fn v -> mm(v) end)])
+            )
+            |> Map.update!("features", &(&1 ++ [feature]))
+          end)
 
         bytes = encode(geometry)
 

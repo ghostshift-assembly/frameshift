@@ -52,6 +52,15 @@ configuration, controlled performance or complete target claim.
 The [retained run records](../../data/illustrations/README.md) bind the original
 inputs, renderer/profile digests, all 15 state outputs and diagnostic timings.
 
+The [layered BOE draft](../../data/illustrations/boe-p1-assembly-draft/README.md)
+adds 13 source/design-bound states, 14 subjects, 57 features and six exact
+readouts. Nine passive-consumer tests and the selected producer/DocShell static
+join pass, including calculated wood, input refusal and exact glass/mat/opening
+values. Native macOS inspection covers the full stack and isolated layers.
+These are provisional design dimensions and a nominal panel envelope; full
+manufacturer CAD, electronics selection, complete installed minimum, hardware
+fit and complete native lifecycle remain open.
+
 ### Existing composition and integration evidence
 
 The [canonical platform plan](build-platform.md) and

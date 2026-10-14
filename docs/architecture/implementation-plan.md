@@ -106,6 +106,12 @@ It generates 15 real states, SVG/PNG/HTML/semantic manifests, contact sheets and
 4× crops, then exports the verified static document. Native interactive preview
 still reports unsupported; browser/manual assistive and complete target evidence
 remain open. A hand-authored substitute cannot qualify this join.
+The layered BOE draft now exercises the same join with calculated timber/rebate,
+glass, mat opening and nominal panel body. Its 13 states retain separate design
+and source quantities and an unknown complete installed minimum; unselected
+electronics are omitted. The thin macOS producer frontend opens these original
+carriers and exposes layer inspections. The CLI's native preview command and
+complete lifecycle/target qualification remain separate unfinished work.
 Follow the producer's bounded temporary-output and reviewed-baseline retention
 policy; retain source fixtures/manifests/metrics/witnesses rather than copying
 unbounded passing render trees. Update the verification map only with actual

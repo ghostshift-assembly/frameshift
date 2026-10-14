@@ -22,6 +22,13 @@ The [source-preview observation](boe-mv270qhm-n40-p1/source-preview/native-obser
 binds the later native executable, unchanged five readouts and direct inspection
 of the original front drawing. It grants no detailed-model or hardware approval.
 
+[The layered BOE assembly draft](boe-p1-assembly-draft/README.md) restores the
+calculated timber/rebate, protection glass, passe-partout opening and nominal
+panel as separate subjects. Its explicit editable inputs produce a planning
+stack; complete installed minimum remains unknown. Unselected electronics,
+retention, backing and mounting have no fabricated shapes. Source inspection
+and the existing fully synthetic service fixture keep their separate scopes.
+
 `synthetic-photo-frame` owns original scene and state bytes for the product's
 software-only assembly/service review. The 16 counted occurrences cover the
 timber enclosure, passe-partout and exact opening feature, panel, controller,

@@ -52,6 +52,17 @@ guessed rear pocket. Regional protrusions, mating cables and the mounting gap
 must appear in the result. An illustrative timber thickness is never a product
 requirement or a proved minimum.
 
+The assembly draft shows timber rails, a rebated front lip, protection glass,
+passe-partout and the selected panel's nominal body as separate subjects.
+Glass/mat thickness, border, overlap, fit and front/rear allowances are explicit
+draft design inputs in micrometres. Its cavity uses the larger of the bounded
+panel outline and the drafted mat footprint; outer timber dimensions follow
+from the cavity and wall input. The displayed rail depth follows the declared
+planning stack. Unlocated panel protrusions, unselected electronics, retention
+and mounting remain named gaps, with no substitute boxes or complete minimum
+depth claim. Source inspection remains a separate view. Neither a centred
+draft aperture nor a material colour establishes a manufacturer datum or finish.
+
 ## Prototype options
 
 ### Donor-monitor mule

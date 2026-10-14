@@ -1,0 +1,23 @@
+{
+  "scope": "Calculated draft layers and nominal panel; no physical fit or complete installed minimum qualification",
+  "states": 13,
+  "occurrences": 14,
+  "features": 57,
+  "readouts": 6,
+  "steps": [
+    "inspect-stack"
+  ],
+  "readout_values": {
+    "outside-width": "671.736 mm",
+    "shown-depth": "19.8 mm",
+    "glass-thickness": "2 mm",
+    "mat-thickness": "1.4 mm",
+    "mat-opening": "594.736 mm",
+    "panel-width": "608.8 mm"
+  },
+  "html_text": [
+    "complete installed minimum UNKNOWN",
+    "594.736 mm",
+    "Glass is an opaque inspection surface"
+  ]
+}

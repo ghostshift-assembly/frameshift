@@ -1,0 +1,25 @@
+{
+  "schema_version": "frameshift/native-illustration-observation/1",
+  "observed_on": "2026-10-14",
+  "renderer_digest": "sha256:4eb67d27d5a5c8b4b98efbf7210d2c01c98fc951dcf5ca6522149eeb9bea7cd1",
+  "frontend_digest": "sha256:64a8b0b0719aad4505d314b17c9d8ad3a5181c1f1a4139f6c29ac795b232e1a5",
+  "scene_digest": "sha256:3963cfc40d6be034d7e0b8c764bc13700eefb422a3094a452ded9342c63222f2",
+  "states_digest": "sha256:f9d3ccf04f7573cb9d02a5d41d8420214079be77f100e7bf31c2d2bcafc7ea27",
+  "views_inspected": [
+    "full-stack",
+    "mat-opening",
+    "assembled-section"
+  ],
+  "readouts": {
+    "outside-width": "671.736 mm",
+    "shown-depth": "19.8 mm",
+    "glass-thickness": "2 mm",
+    "mat-thickness": "1.4 mm",
+    "mat-opening": "594.736 mm",
+    "panel-width": "608.8 mm"
+  },
+  "visible_scope": "Planning rail depth 21.8 mm; complete installed minimum UNKNOWN. Glass opaque; assembled section hides it. Electronics, retention, backing and mount unselected.",
+  "window": "Native display-fit window inspected; drawing and controls visible",
+  "scope": "Selected macOS arm64 native observations only; complete lifecycle, other targets, VoiceOver/manual keyboard and hardware acceptance remain open",
+  "review_approval": "not-granted"
+}

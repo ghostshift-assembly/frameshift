@@ -1,4 +1,31 @@
-[review] = System.argv()
+args = System.argv()
+[review | rest] = args
+
+inputs =
+  case rest do
+    [] -> Path.expand("../../../data/illustrations/synthetic-photo-frame", __DIR__)
+    [fixture, _expectations] -> Path.expand(fixture)
+  end
+
+expectations =
+  case rest do
+    [] ->
+      %{
+        "scope" =>
+          "Synthetic software fixture; no physical, native-window, browser, assistive or complete-platform qualification",
+        "states" => 15,
+        "occurrences" => 16,
+        "features" => 33,
+        "readouts" => 4,
+        "steps" => ~w(place-panel connect-power close-backing mount-frame),
+        "readout_values" => %{"active-opening-width" => "310 mm"},
+        "html_text" => ["310 mm", "mounting strength require separate qualification"]
+      }
+
+    [_, path] ->
+      {:ok, value} = path |> File.read!() |> Conjunct.Wire.decode()
+      value
+  end
 
 decode = fn path ->
   {:ok, value} = path |> File.read!() |> Conjunct.Wire.decode()
@@ -11,7 +38,6 @@ semantics = decode.(Path.join(packet, "semantics.json"))
 presentation = decode.(Path.join(review, "document/presentation-manifest.json"))
 site = decode.(Path.join(review, "document/site-manifest.json"))
 true = manifest["outcome"] == "completed"
-inputs = Path.expand("../../../data/illustrations/synthetic-photo-frame", __DIR__)
 
 true =
   manifest["scene_digest"] == Conjunct.Wire.blob_id(File.read!(Path.join(inputs, "scene.json")))
@@ -19,20 +45,24 @@ true =
 true =
   manifest["states_digest"] == Conjunct.Wire.blob_id(File.read!(Path.join(inputs, "states.json")))
 
-true = length(manifest["states"]) == 15
-true = length(semantics["states"]) == 15
-expected_steps = ~w(place-panel connect-power close-backing mount-frame)
+true = length(manifest["states"]) == expectations["states"]
+true = length(semantics["states"]) == expectations["states"]
+expected_steps = expectations["steps"]
 
 for state <- semantics["states"] do
   true = state["scene_digest"] == manifest["scene_digest"]
   true = state["physical_status"] == "unknown"
   true = state["procedure_status"] == "unknown"
-  true = length(state["subjects"]) == 16
-  true = Enum.sum(Enum.map(state["subjects"], &map_size(&1["features"]))) == 33
-  true = length(state["readouts"]) == 4
+  true = length(state["subjects"]) == expectations["occurrences"]
 
   true =
-    Enum.find(state["readouts"], &(&1["id"] == "active-opening-width"))["display"] == "310 mm"
+    Enum.sum(Enum.map(state["subjects"], &map_size(&1["features"]))) == expectations["features"]
+
+  true = length(state["readouts"]) == expectations["readouts"]
+
+  for {id, display} <- expectations["readout_values"] do
+    true = Enum.find(state["readouts"], &(&1["id"] == id))["display"] == display
+  end
 
   true = Enum.map(state["steps"], & &1["id"]) == expected_steps
 
@@ -52,7 +82,7 @@ for file <- manifest["files"] do
 end
 
 receipt = presentation["pages"]["frame-review"]
-true = length(receipt["blocks"]) == 15
+true = length(receipt["blocks"]) == expectations["states"]
 true = receipt["constraints"]["reader_mode"] == "file"
 
 true =
@@ -64,8 +94,7 @@ true =
 html = File.read!(Path.join(review, "document/index.html"))
 false = Regex.match?(~r/<script\b|\bon[a-z]+\s*=|<iframe\b|foreignObject/i, html)
 true = String.contains?(html, "src=\"assets/")
-true = String.contains?(html, "310 mm")
-true = String.contains?(html, "mounting strength require separate qualification")
+for text <- expectations["html_text"], do: true = String.contains?(html, text)
 
 for app <- [:doc_shell, :conjunct_wire, :conjunct_illustration] do
   true = Application.spec(app, :mod) == []
@@ -79,8 +108,7 @@ end
 observation = %{
   "schema_version" => "frameshift/illustration-observation/1",
   "status" => "passed-selected-static-join",
-  "scope" =>
-    "Synthetic software fixture; no physical, native-window, browser, assistive or complete-platform qualification",
+  "scope" => expectations["scope"],
   "scene_digest" => manifest["scene_digest"],
   "states_digest" => manifest["states_digest"],
   "renderer_digest" => manifest["renderer_digest"],
@@ -100,7 +128,12 @@ observation = %{
     Conjunct.Wire.blob_id(File.read!(Path.join(review, "document/site-manifest.json"))),
   "elixir" => System.version(),
   "otp" => :erlang.system_info(:otp_release) |> to_string(),
-  "counts" => %{"states" => 15, "occurrences" => 16, "features" => 33, "readouts" => 4},
+  "counts" => %{
+    "states" => expectations["states"],
+    "occurrences" => expectations["occurrences"],
+    "features" => expectations["features"],
+    "readouts" => expectations["readouts"]
+  },
   "review_approval" => "not-granted",
   "browser_inspection" => "not-executed-by-this-check"
 }

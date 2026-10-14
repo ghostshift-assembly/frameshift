@@ -50,3 +50,13 @@ Its window, input and process transport are host-owned; all geometry and motion
 remain in the producer. Additional targets, browser/manual assistive tasks,
 complete lifecycle qualification and physical qualification remain open in the
 existing delivery plan.
+
+The [layered BOE assembly draft](../../data/illustrations/boe-p1-assembly-draft/README.md)
+uses `scripts/assembly_draft.exs` with descriptor, panel record, explicit design
+inputs and a new carrier destination. The timber is calculated from that stack;
+glass, mat opening and rebate each have isolated views. The opaque glass
+inspection surface is hidden only in the named assembled section. The final
+installed minimum remains unknown, and no unselected controller is drawn.
+`verify.exs` accepts optional absolute fixture and acceptance-file arguments so
+its file, binding, dimension, warning and runtime checks apply to this exact
+13-state input set as well as the preserved 15-state synthetic fixture.
