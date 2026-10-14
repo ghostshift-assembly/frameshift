@@ -50,3 +50,12 @@ input refusal, source/design distinction and original-byte replay. Native
 inspection is recorded separately. These software checks establish no complete
 CAD, hardware fit, minimum depth, optical behavior, mounting strength or execution
 readiness. Full passing packets remain temporary; inputs and manifests are retained.
+
+The [native control observation](evidence/native-controls-observation.json)
+records the version-2 producer and corrected AppKit inspector for these same
+carriers. All 57 features retain separate node IDs, including repeated timber
+and mat labels. Selecting top timber depth resolves to `wood-wall-top#depth`;
+reduced motion, pause and the `3/8` checkpoint preserve all six exact readouts.
+Details shows original bindings and each subject's limitations. The Desktop
+delivery is `Frameshift Assembly Review.app`. These selected automated native
+observations grant no complete viewer, manual accessibility or hardware claim.

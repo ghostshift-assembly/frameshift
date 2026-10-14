@@ -1,0 +1,48 @@
+{
+  "schema_version": "frameshift/native-illustration-control-observation/1",
+  "observed_on": "2026-10-14",
+  "target": "macOS arm64",
+  "producer_revision": "d71578862ae3e29eb87620c8a2cd3e8029443e65",
+  "renderer_digest": "sha256:cc817766a9b7f4ff9e873dcac8b365309be86749c1896277e681eb2f60baf8ab",
+  "frontend_digest": "sha256:3afa33dcc754f983c76c47d7d3bad5dd0415371195d12eabb10a05acc7aa6ee7",
+  "scene_digest": "sha256:3963cfc40d6be034d7e0b8c764bc13700eefb422a3094a452ded9342c63222f2",
+  "states_digest": "sha256:f9d3ccf04f7573cb9d02a5d41d8420214079be77f100e7bf31c2d2bcafc7ea27",
+  "desktop_deliverable": "Frameshift Assembly Review.app",
+  "features": {
+    "count": 57,
+    "selected_menu_label": "Timber wall / calculated draft · depth [wood-wall-top]",
+    "accepted_selection": "wood-wall-top#depth"
+  },
+  "controls": {
+    "initial_theme": "monochrome",
+    "initial_position": "1/1",
+    "reduced_motion": true,
+    "paused": true,
+    "slider": 375,
+    "accepted_position": "3/8"
+  },
+  "readouts": {
+    "outside_width": "671.736 mm",
+    "wall_depth_lip_separate": "19.8 mm",
+    "glass_thickness": "2 mm",
+    "mat_thickness": "1.4 mm",
+    "mat_opening_width": "594.736 mm",
+    "panel_width_nominal": "608.8 mm"
+  },
+  "inspector": {
+    "physical_status": "unknown",
+    "procedure_status": "unknown",
+    "step": "none",
+    "selection": "wood-wall-top#depth",
+    "complete_installed_minimum": "unknown",
+    "source_and_design_limitations": "visible-per-subject-with-exact-node-IDs"
+  },
+  "regression": {
+    "cause": "Native popup entries merged duplicate display labels while indices retained all features.",
+    "failed_requested_label": "Timber wall / calculated draft · depth",
+    "failed_actual_selection": "mat-top#height",
+    "recovered_selection": "wood-wall-top#depth"
+  },
+  "scope": "Selected automated native full-stack, feature menu, details and reduced-motion/pause/checkpoint observations. The source carriers and product dimensions are unchanged. Complete frontend lifecycle/manual accessibility, installed hardware depth, additional targets and physical acceptance remain open.",
+  "review_approval": "not-granted"
+}
