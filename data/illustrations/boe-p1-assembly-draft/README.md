@@ -59,3 +59,17 @@ reduced motion, pause and the `3/8` checkpoint preserve all six exact readouts.
 Details shows original bindings and each subject's limitations. The Desktop
 delivery is `Frameshift Assembly Review.app`. These selected automated native
 observations grant no complete viewer, manual accessibility or hardware claim.
+
+The [2026-10-15 producer refresh](evidence/producer-refresh-2026-10-15.json)
+replays these unchanged original scene/state carriers with the later producer.
+All 44 packet files are byte-identical to the retained earlier manifest; all
+13 states preserve 14 subjects, 57 features, six exact readouts and unknown
+physical/procedure status. The
+[new run manifest](evidence/producer-refresh-run-manifest-2026-10-15.json) binds
+the executable and original inputs; its
+[storage result](evidence/producer-refresh-storage-result-2026-10-15.json)
+records success and closed processes. Full-stack, timber-rebate and mat-opening
+PNGs were inspected from files; no GUI app was opened. The full-stack image is
+on Desktop as `Frameshift Layered Assembly 2026-10-15.png`. This checks current
+producer generation; it does not repeat document-adapter or installed native
+qualification.
